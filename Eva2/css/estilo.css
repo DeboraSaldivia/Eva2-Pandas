@@ -1,0 +1,98 @@
+
+body {
+    background-color:#3c3c3c ;
+}
+.container {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 60px;
+    background-color: #ffffff;
+    width: 60%;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+header {
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+nav a{
+    
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #807f7f;
+    color: #d5cbb3;
+}
+ main {
+    padding: 30px;
+ }
+
+
+ footer {
+    opacity: 90%;
+    background-color: #666666;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+ }
+   
+.sub{
+    text-align: center;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.img div > img {
+    max-width: 100%;
+    display: block;
+  }
+  
+.img div {
+    margin: 10px;
+    flex-basis: 180px;
+  }
+  
+.formulario {
+
+    background-size: 100px;
+    background-color: #b5b5b5;
+    text-align: center;
+    width: 100%;
+}
+.inicio{
+    text-align: center;
+}
+
+.formu{
+    padding: 15px;
+}
+.margen{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+   
+}
